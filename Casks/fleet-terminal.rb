@@ -2,8 +2,7 @@ cask "fleet-terminal" do
   version "1.0.1"
   sha256 "7af1fd7076d65e63ef618466bbc27fa7280ec3802945ff20602127d6ac8c5693"
 
-  url "https://dl.fleet-terminal.app/Fleet-#{version}.dmg",
-      verified: "dl.fleet-terminal.app/"
+  url "https://dl.fleet-terminal.app/Fleet-#{version}.dmg"
   name "Fleet Terminal"
   desc "Terminal for running many AI coding agents at once"
   homepage "https://fleet-terminal.app/"
@@ -16,7 +15,7 @@ cask "fleet-terminal" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Fleet.app"
 
