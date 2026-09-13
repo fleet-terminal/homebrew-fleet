@@ -1,6 +1,6 @@
 cask "fleet-terminal" do
-  version "1.1.0"
-  sha256 "201c26bfef0498b33647720a28fb231bd5154f857806475b44ddffa61b010d46"
+  version "1.1.1"
+  sha256 "a6dddaba1c81a7f2a88b4f65bc65cfb7ec54c394317262e007a907e63ca29312"
 
   url "https://dl.fleet-terminal.app/Fleet-#{version}.dmg"
   name "Fleet Terminal"
